@@ -1,0 +1,106 @@
+body {
+    background: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.main-todo {
+    background-color: white;
+    width: 300px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.todoapp {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.todos {
+    display: flex;
+    gap: 10px;
+}
+
+.text {
+    width: 200px;
+    height: 30px;
+    padding-left: 10px;
+    border: 1px solid #ccc;
+}
+
+.error {
+    color: red;
+    display: none;
+    font-size: 12px;
+}
+
+.fa-plus {
+    font-size: 20px;
+}
+
+.fa-plus-btn {
+    background-color: #5B86E5;
+    color: white;
+    padding: 6px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.fa-plus-btn:hover {
+    background-color: #4a75c3;
+}
+
+.result {
+    margin-top: 20px;
+}
+
+.result-p {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+}
+
+.delete-btn {
+    background-color: #f44336;
+    color: white;
+    margin-top: 16px;
+    width: 38px;
+    height: 38px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.delete-btn:hover {
+    background-color: #d32f2f;
+}
+
+.clear-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+}
+
+.clear {
+    width: 100px;
+    height: 30px;
+    border: none;
+    color: white;
+    background-color: #ff5722;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.clear:hover {
+    background-color: #e64a19;
+}
